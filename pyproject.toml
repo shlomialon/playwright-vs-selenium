@@ -1,0 +1,24 @@
+[virtualenvs]
+in-project = true
+
+[tool.poetry]
+name = "selenium-vs-playwright"
+version = "0.1.0"
+description = "A project to compare Selenium and Playwright"
+authors = ["Shlomi Alon"]
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+pytest = "^6.2"
+pytest-playwright = "^0.2"
+pytest-parallel = "^0.1"
+pytest-html = "^3.1"
+playwright = "^1.14"
+PyYAML = "^6.0.1"
+dynaconf = "^3.1"
+flake8 = "^3.9"
+selenium = "^4.17"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9"
+isort = "^5.9"

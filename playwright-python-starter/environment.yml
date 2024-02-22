@@ -1,0 +1,13 @@
+name: python310
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - pytest
+    - pytest-playwright
+    - pytest-parallel
+    - pytest-html
+    - playwright
+    - PyYAML
+    - dynaconf
+    - flake8
